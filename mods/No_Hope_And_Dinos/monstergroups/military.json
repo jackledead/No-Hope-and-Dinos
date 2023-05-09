@@ -1,0 +1,94 @@
+[
+  {
+    "name": "GROUP_MIL_WEAK",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_tripod", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_chickenbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tankbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "group": "GROUP_BIO_DINO_HERB", "weight": 100 },
+      { "group": "GROUP_BIO_DINO_PRED", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_PREDATOR_SWAMP", "weight": 100 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_HELIPAD",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_MIL_WEAK", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_MIL_PILOT",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_MIL_WEAK", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_MIL_PASSENGER",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_MIL_WEAK", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_BASE_CIVILIAN",
+    "//": "Civilians with soldiers and burned ones.",
+    "monsters": [
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "cost_multiplier": 0, "pack_size": [ 2, 4 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_BASE_HOSPITAL",
+    "//": "Civilians with soldiers, doctors and burned ones. More hazmat.",
+    "monsters": [
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "group": "GROUP_MIL_WEAK", "weight": 250 }
+    ]
+  },
+  {
+    "name": "GROUP_AIRCRAFT_CARRIER",
+    "type": "monstergroup",
+    "//": "no children, 40% tech personel 20% civilian personel (med, fire, cook, clercs etc), 20% uniformed zombie, 10% army pilots, and 10% military zeds",
+    "monsters": [ { "group": "GROUP_MIL_WEAK", "weight": 250 } ]
+  },
+  {
+    "name": "GROUP_AIRCRAFT_CARRIER_TECHNICIANS",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_MIL_WEAK", "weight": 250 } ]
+  }
+]

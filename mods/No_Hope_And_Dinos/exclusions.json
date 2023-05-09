@@ -1,0 +1,48 @@
+[
+  {
+    "type": "MONSTER_WHITELIST",
+    "mode": "EXCLUSIVE",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "ROBOT", "CYBORG", "DINOSAUR", "MUTANT", "INSECT", "WORM", "FISH" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "species": [ "MUTANT", "ZOMBIE", "PLANT", "NETHER", "FUNGUS" ],
+    "monsters": [ "mon_exodii_worker", "mon_exodii_quad", "mon_zomborg_devourer" ]
+  },
+  {
+    "type": "SCENARIO_BLACKLIST",
+    "subtype": "blacklist",
+    "scenarios": [
+      "fungal_start",
+      "hunted_start",
+      "migo_prisoner",
+      "portal_dependent",
+      "quick_portal_storm_base",
+      "strong_portal_storm_base",
+      "strong_portal_storm"
+    ]
+  },
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "overmap_feature_flag_settings": { "blacklist": [ "FUNGAL", "EXODII", "MI-GO", "TRIFFID" ] },
+    "map_extras": {
+      "forest": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_exocrash_1": 0, "mx_exocrash_2": 0 } },
+      "forest_thick": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_jabberwock": 0, "mx_exocrash_1": 0, "mx_exocrash_2": 0 } },
+      "forest_water": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_exocrash_1": 0, "mx_exocrash_2": 0 } },
+      "field": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_exocrash_1": 0, "mx_exocrash_2": 0 } },
+      "road": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_exocrash_1": 0, "mx_exocrash_2": 0 } },
+      "build": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_exocrash_1": 0, "mx_exocrash_2": 0 } },
+      "marloss": { "chance": 0, "extras": { "mx_marloss_pilgrimage": 0 } },
+      "subway": { "extras": { "mx_portal": 0, "mx_portal_in": 0 } }
+    }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_STORM_WARN_OR_CAUSE_RECURRING",
+    "recurrence": [ "10 days", "11 days" ],
+    "global": true,
+    "effect": [  ]
+  }
+]

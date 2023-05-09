@@ -1,0 +1,518 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE",
+    "monsters": [
+      { "monster": "mon_compsognathus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_gallimimus", "weight": 50, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_struthiomimus", "weight": 50, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_ornithomimus", "weight": 50, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_albertonykus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_eoraptor", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_sarahsaurus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_anchisaurus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_scutellosaurus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_gargoyleosaurus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_dyoplosaurus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_tenontosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_dryosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_camptosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_stegoceras", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_pachycephalosaurus", "weight": 25, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_aquilops", "weight": 25, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_nanosaurus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_leptoceratops", "weight": 3, "pack_size": [ 2, 6 ] },
+      { "monster": "mon_zuniceratops", "weight": 3, "pack_size": [ 2, 6 ] },
+      { "monster": "mon_oryctodromeus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_thescelosaurus", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_tawa", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_anzu", "weight": 50, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 20, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 100, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 100, "pack_size": [ 1, 4 ] }
+    ]
+  },
+  {
+    "name": "GROUP_PARK_SCENIC",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 }, { "group": "GROUP_DINOSAUR_FLY", "weight": 30 } ]
+  },
+  {
+    "name": "GROUP_ROOF_ZOMBIE",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 50 }, { "group": "GROUP_DINOSAUR_FLY", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_PARK_PLAYGROUND",
+    "type": "monstergroup",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_HARMLESS_JUVENILE", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_DANGEROUS_JUVENILE", "weight": 100 }
+    ]
+  },
+  {
+    "name": "GROUP_PARK_DOG",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_PARK_PLAYGROUND", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_DOGS",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_PARK_PLAYGROUND", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_ZOMBIE_SCORCHED",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_GASSTATION",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_GAS",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_NEMESIS",
+    "default": "mon_tyrannosaurus",
+    "//": "nemesis squad",
+    "monsters": [ { "group": "GROUP_DINOSAUR_MEGA_CARNIVORE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_VANILLA_NO_FERAL",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_VANILLA",
+    "//": "Normalized to 1000",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_POLICE",
+    "//": "+30% cops, much higher chance of paramilitary people",
+    "monsters": [
+      { "monster": "mon_tawa", "weight": 200, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 250, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "pack_size": [ 2, 4 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_HOUSE",
+    "//": "+15% child",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_HARMLESS_JUVENILE", "weight": 15 },
+      { "group": "GROUP_DINOSAUR_DANGEROUS_JUVENILE", "weight": 15 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_PREPPER_HOUSE",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 }, { "group": "GROUP_DINOSAUR_MEGA_CARNIVORE", "weight": 50 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_PHARM",
+    "//": "+13% fast",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_HARMLESS_JUVENILE", "weight": 15 },
+      { "group": "GROUP_DINOSAUR_DANGEROUS_JUVENILE", "weight": 15 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ELECTRO",
+    "//": "+15% electric",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_GROCERY",
+    "//": "+15% fat",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_HARMLESS_JUVENILE", "weight": 15 },
+      { "group": "GROUP_DINOSAUR_DANGEROUS_JUVENILE", "weight": 15 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_PUBLICWORKERS",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MAYBE_ZOMBIE",
+    "//": "10% chance of a zombie",
+    "monsters": [
+      { "monster": "mon_tawa", "weight": 200, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_allosaurus", "weight": 200, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_anzu", "weight": 100, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "pack_size": [ 2, 7 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_utahraptor", "weight": 100, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_compsognathus", "weight": 100, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_gallimimus", "weight": 50, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_struthiomimus", "weight": 50, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_ornithomimus", "weight": 50, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_albertonykus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_eoraptor", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_sarahsaurus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_anchisaurus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_scutellosaurus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_gargoyleosaurus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_dyoplosaurus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_tenontosaurus", "weight": 100, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_dryosaurus", "weight": 100, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_camptosaurus", "weight": 100, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_stegoceras", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_pachycephalosaurus", "weight": 25, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_aquilops", "weight": 25, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_nanosaurus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_leptoceratops", "weight": 3, "pack_size": [ 2, 7 ] },
+      { "monster": "mon_zuniceratops", "weight": 3, "pack_size": [ 2, 7 ] },
+      { "monster": "mon_oryctodromeus", "weight": 20, "pack_size": [ 1, 6 ] },
+      { "monster": "mon_thescelosaurus", "weight": 20, "pack_size": [ 1, 6 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_FAT_BASE",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_SCHOOL",
+    "//": "School monster spawns.",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_HARMLESS_JUVENILE", "weight": 200 },
+      { "group": "GROUP_DINOSAUR_DANGEROUS_JUVENILE", "weight": 100 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_SMALL_STATION",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LARGE_STATION",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CHURCH_ZOMBIE",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_PRISON",
+    "default": "mon_zombie_prisoner",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_COP",
+    "monsters": [
+      { "monster": "mon_tawa", "weight": 200, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 200, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 100, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "pack_size": [ 2, 4 ] }
+    ]
+  },
+  {
+    "name": "GROUP_MANSION",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_MANSION_ESCAPE",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_MANSION", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_PANICROOM",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 }, { "monster": "mon_null", "weight": 40 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MANSION_SEX_LAIR",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 }, { "monster": "mon_null", "weight": 40 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MANSION_POOL",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 200 },
+      { "monster": "mon_spinosaurus", "weight": 40 },
+      { "monster": "mon_tawa", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_coelophysis", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_ceratosaurus", "weight": 20 },
+      { "monster": "mon_torvosaurus", "weight": 20 },
+      { "monster": "mon_allosaurus", "weight": 20 },
+      { "monster": "mon_acrocanthosaurus", "weight": 20 },
+      { "monster": "mon_siats", "weight": 20 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_HOSPITAL",
+    "//": "Hospital monster spawns. Same as GROUP_ZOMBIE, but without Z-dogs + 20% medical",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_STEEL_MILL",
+    "//": "Steel mill monster spawns.",
+    "monsters": [ { "monster": "mon_null", "weight": 586 }, { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_MALL",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_GROCERY", "weight": 800 }, { "monster": "mon_null", "weight": 200 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_SEXSHOP_A",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_SEXSHOP_B",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_FIRE",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 }, { "group": "GROUP_DINOSAUR_MEGA_CARNIVORE", "weight": 30 } ]
+  },
+  {
+    "name": "FERAL_HUMANS",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_DINOSAUR_HARMLESS", "weight": 100 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "DUMP_ZOMBIES",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 }, { "group": "GROUP_DINOSAUR_MEGA_CARNIVORE", "weight": 5 } ]
+  },
+  {
+    "name": "GROUP_PLAIN",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_HOTEL_POOL",
+    "type": "monstergroup",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 200 },
+      { "monster": "mon_spinosaurus", "weight": 20 },
+      { "monster": "mon_tawa", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_coelophysis", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_ceratosaurus", "weight": 20 },
+      { "monster": "mon_torvosaurus", "weight": 20 },
+      { "monster": "mon_allosaurus", "weight": 20 },
+      { "monster": "mon_acrocanthosaurus", "weight": 20 },
+      { "monster": "mon_siats", "weight": 20 }
+    ]
+  },
+  {
+    "name": "GROUP_HOTEL_GYM",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_SEARCH_FITNESS",
+    "//": "Civilians that died/went crazy while trying to improve their bodies doing exercise. Lesser improved chance of brute/hulk.",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_DOJO",
+    "//": "Civilians that died/went crazy while in a dojo, no runner and less fat zombies. Improved chance of brute/wrestler/hulk.",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 100 } ]
+  },
+  {
+    "name": "GROUP_ZOMBIE_POOL",
+    "type": "monstergroup",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 200 },
+      { "monster": "mon_spinosaurus", "weight": 20 },
+      { "monster": "mon_tawa", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_coelophysis", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_ceratosaurus", "weight": 20 },
+      { "monster": "mon_torvosaurus", "weight": 20 },
+      { "monster": "mon_allosaurus", "weight": 20 },
+      { "monster": "mon_acrocanthosaurus", "weight": 20 },
+      { "monster": "mon_siats", "weight": 20 }
+    ]
+  },
+  {
+    "name": "GROUP_POOL_NOKIDS",
+    "type": "monstergroup",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 200 },
+      { "monster": "mon_spinosaurus", "weight": 20 },
+      { "monster": "mon_tawa", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_coelophysis", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_ceratosaurus", "weight": 20 },
+      { "monster": "mon_torvosaurus", "weight": 20 },
+      { "monster": "mon_allosaurus", "weight": 20 },
+      { "monster": "mon_acrocanthosaurus", "weight": 20 },
+      { "monster": "mon_siats", "weight": 20 }
+    ]
+  },
+  {
+    "name": "GROUP_DIVING",
+    "type": "monstergroup",
+    "//": "Zombies/ferals that could be found on a diving related place.",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 200 },
+      { "monster": "mon_spinosaurus", "weight": 20 },
+      { "monster": "mon_tawa", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_coelophysis", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_ceratosaurus", "weight": 20 },
+      { "monster": "mon_torvosaurus", "weight": 20 },
+      { "monster": "mon_allosaurus", "weight": 20 },
+      { "monster": "mon_acrocanthosaurus", "weight": 20 },
+      { "monster": "mon_siats", "weight": 20 }
+    ]
+  },
+  {
+    "name": "GROUP_BEACH",
+    "type": "monstergroup",
+    "//": "Zombies/ferals that could be found on the beach/riverside.",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 200 },
+      { "group": "GROUP_DINOSAUR_MEGA_HERBIVORE", "weight": 50 },
+      { "group": "GROUP_DINOSAUR_MEGA_CARNIVORE", "weight": 30 },
+      { "monster": "mon_spinosaurus", "weight": 20 },
+      { "monster": "mon_tawa", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_coelophysis", "weight": 20, "pack_size": [ 4, 10 ] },
+      { "monster": "mon_ceratosaurus", "weight": 20 },
+      { "monster": "mon_torvosaurus", "weight": 20 },
+      { "monster": "mon_allosaurus", "weight": 20 },
+      { "monster": "mon_acrocanthosaurus", "weight": 20 },
+      { "monster": "mon_siats", "weight": 20 }
+    ]
+  },
+  {
+    "name": "GROUP_ZOMBIE_BOVINE",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_DINOSAUR_HARMLESS", "weight": 200 }, { "group": "GROUP_DINOSAUR_MEGA_HERBIVORE", "weight": 75 } ]
+  },
+  {
+    "name": "GROUP_HOSPITAL_INCUBATOR",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_null", "weight": 995 } ]
+  },
+  {
+    "name": "GROUP_FORT",
+    "type": "monstergroup",
+    "monsters": [
+      { "group": "GROUP_ZOMBIE", "weight": 200 },
+      { "group": "GROUP_DINOSAUR_MEGA_HERBIVORE", "weight": 50 },
+      { "group": "GROUP_DINOSAUR_MEGA_CARNIVORE", "weight": 30 }
+    ]
+  },
+  {
+    "name": "GROUP_CIVILIAN",
+    "//": "Civilians/Normal people that died, represents a lot of different common professions.  No children or dogs.",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_CIVILIAN_NO_FERAL",
+    "//": "Civilians/Normal people that died, represents a lot of different common professions.  No children, dogs or ferals.",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_FERROUS",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_MINERS",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MASS_GRAVE",
+    "//": "Corpses buried at a mass grave. No ferals, and few animals.",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 }, { "group": "GROUP_DINOSAUR_MEGA_CARNIVORE", "weight": 75 } ]
+  },
+  {
+    "name": "GROUP_FOOTBALL",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_null", "weight": 300 }, { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_NURSING_HOME",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_NURSING_HOME_LAB",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_RETIREMENT_COMMUNITY",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  },
+  {
+    "name": "GROUP_NUCLEAR_PLANT_WORK_ZOMBIES",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_null", "weight": 300 }, { "group": "GROUP_ZOMBIE", "weight": 200 } ]
+  }
+]

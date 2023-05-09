@@ -1,0 +1,134 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CENTRAL_LAB",
+    "monsters": [
+      { "monster": "mon_chickenbot", "weight": 1, "cost_multiplier": 50 },
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "cost_multiplier": 10, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "cost_multiplier": 30, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 200, "cost_multiplier": 30, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 30, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "cost_multiplier": 30, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "cost_multiplier": 10, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 10, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 15, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 100, "cost_multiplier": 30, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "cost_multiplier": 10, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "cost_multiplier": 30, "pack_size": [ 2, 4 ] },
+      { "group": "GROUP_BIO_DINO_HERB", "weight": 300 },
+      { "group": "GROUP_BIO_DINO_PRED", "weight": 300 },
+      { "group": "GROUP_DINOSAUR_PREDATOR_SWAMP", "weight": 300 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ROBOT",
+    "monsters": [
+      { "monster": "mon_tripod", "weight": 110, "cost_multiplier": 0 },
+      { "monster": "mon_chickenbot", "weight": 60, "cost_multiplier": 0 },
+      { "monster": "mon_tankbot", "weight": 20, "cost_multiplier": 0 },
+      { "group": "GROUP_BIO_DINO_HERB", "weight": 200 },
+      { "group": "GROUP_BIO_DINO_PRED", "weight": 200 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_BASE",
+    "monsters": [
+      { "monster": "mon_tripod", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_chickenbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tankbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 400, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 400, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "group": "GROUP_BIO_DINO_HERB", "weight": 100 },
+      { "group": "GROUP_BIO_DINO_PRED", "weight": 100 },
+      { "group": "GROUP_DINOSAUR_PREDATOR_SWAMP", "weight": 400 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MAYBE_MIL",
+    "monsters": [
+      { "monster": "mon_tripod", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_chickenbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tankbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 225, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 300, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "group": "GROUP_BIO_DINO_HERB", "weight": 200 },
+      { "group": "GROUP_BIO_DINO_PRED", "weight": 200 },
+      { "group": "GROUP_DINOSAUR_PREDATOR_SWAMP", "weight": 200 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_STRONG",
+    "monsters": [
+      { "monster": "mon_tripod", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_chickenbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tankbot", "weight": 5, "cost_multiplier": 0 },
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 250, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 250, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 250, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 250, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 100, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "group": "GROUP_BIO_DINO_HERB", "weight": 300 },
+      { "group": "GROUP_BIO_DINO_PRED", "weight": 300 },
+      { "group": "GROUP_DINOSAUR_PREDATOR_SWAMP", "weight": 300 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_MASS_GRAVE",
+    "type": "monstergroup",
+    "//": "Lots of hazmats and burners.",
+    "monsters": [
+      { "monster": "mon_tawa", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_coelophysis", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dilophosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_ceratosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_allosaurus", "weight": 300, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dryptosaurus", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_anzu", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_saurornitholestes", "weight": 200, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_velociraptor", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_deinonychus", "weight": 150, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_utahraptor", "weight": 250, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_dromaeosaurus", "weight": 250, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_stenonychosaurus", "weight": 5, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "group": "GROUP_BIO_DINO_HERB", "weight": 150 },
+      { "group": "GROUP_BIO_DINO_PRED", "weight": 150 },
+      { "group": "GROUP_DINOSAUR_PREDATOR_SWAMP", "weight": 300 }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "no_hope_and_dinos",
+    "name": "No Hope and Dinos",
+    "authors": [ "Jackledead" ],
+    "description": "I designed thi with these paramters in mind: loot spawn at [0.05 to 0.2] and monster spawn rate at [4.00 to 5.00]. It's like No Hope, but replaces zombies with dinosaurs, and requires TropiCataclysm and Dinomod. Removes portals and portal storms. Only spawn Dinosaurs, Robots, Cyborgs, Mutants, Insects, Worms and Wildlife. Removes Triffids, Fungus, Exodii, Nether-stuff and everything not whitelisted.",
+    "category": "content",
+    "dependencies": [ "dda", "tropicata", "DinoMod" ]
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "MAMMAL",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "BIRD",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "MUTANT",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "HUMAN",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "DINOSAUR",
+    "flag": { "name": "REVIVES", "value": false }
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "CYBORG",
+    "flag": { "name": "REVIVES", "value": false }
+  }
+]
