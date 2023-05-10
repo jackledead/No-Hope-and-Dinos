@@ -1,6 +1,6 @@
 # No Hope and Dinos
 
-## How to install:
+## How to install (CDDA Latest Experimental):
 1. Click the green button in the top and download as a zip
 2. Extract and then
 3. simply put No-Hope-and-Dinos/mods/No_Hope_And_Dinos in your data/mods/ folder
